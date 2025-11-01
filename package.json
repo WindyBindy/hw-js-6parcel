@@ -1,0 +1,27 @@
+{
+	"name": "hw-js-6parcel",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "npx parcel src/index.html",
+		"build": "parcel build src/index.html --public-url /parcelsecond/",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/WindyBindy/hw-js-6parcel.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/WindyBindy/hw-js-6parcel/issues"
+	},
+	"homepage": "https://github.com/WindyBindy/hw-js-6parcel#readme",
+	"devDependencies": {
+		"gh-pages": "^6.3.0",
+		"parcel": "^2.16.0"
+	}
+}
