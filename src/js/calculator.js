@@ -5,7 +5,7 @@ export function minus(a, b) {
 	return 'minus:' + (a - b)
 }
 export function divide(a, b) {
-	return 'divide:' + a / b
+	return 'devide:' + a / b
 }
 export function multiply(a, b) {
 	return 'multiply:' + a * b
